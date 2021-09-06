@@ -9,6 +9,7 @@
     "@hotwired/turbo-rails": "^7.0.0-rc.3",
     "esbuild": "^0.12.25",
     "esbuild-plugin-postcss2": "^0.1.0",
+    "sass": "^1.39.0",
     "tailwindcss": "^2.2.10"
   }
 }

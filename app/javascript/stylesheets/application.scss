@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-indigo-500;
+
+  h1 {
+    @apply text-blue-500 text-2xl;
+  }

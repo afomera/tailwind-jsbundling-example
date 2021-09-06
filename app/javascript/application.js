@@ -2,6 +2,6 @@
 import "@hotwired/turbo-rails"
 import "./controllers"
 
-import "./stylesheets/application.css"
+import "./stylesheets/application.scss"
 
 console.log('Hello world');
