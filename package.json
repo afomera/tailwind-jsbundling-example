@@ -2,7 +2,7 @@
   "name": "app",
   "private": "true",
   "scripts": {
-    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds"
+    "build": "node ./esbuild.config.js"
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.0.0-beta.1",
