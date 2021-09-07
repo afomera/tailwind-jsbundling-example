@@ -40,7 +40,7 @@ esbuild.build({
   watch: watch,
   plugins: [
     postCSSPlugin({
-      plugins: [autoprefixer, require("tailwindcss")],
+      plugins: [autoprefixer, require("postcss-nested"), require("tailwindcss")],
     }),
   ],
 })
